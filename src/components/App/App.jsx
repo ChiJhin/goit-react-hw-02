@@ -11,7 +11,6 @@ export const App = () => {
 
     if (savedFeedback !== null) {
       let initialValue = savedFeedback.feedback;
-      console.log(initialValue);
       return {
         good: initialValue.good,
         neutral: initialValue.neutral,
